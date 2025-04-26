@@ -1,0 +1,18 @@
+=== SCHEMA DRIFT REPORT ===
+
+- [New Column] Column: discount | Details: DoubleType()
+- [New Column] Column: date | Details: TimestampType()
+- [Missing Column] Column: date | Details: DateType()
+- [Type Mismatch] Column: date | Details: DateType() → TimestampType()
+
+
+=== VALUE DRIFT REPORT ===
+
+- Column: revenue | Mean (Batch1): 531.12 → Mean (Batch2): 1500.00 | StdDev (Batch1): 256.56 → StdDev (Batch2): 0.00
+
+
+=== NULL VALUE REPORT ===
+
+- Column: revenue | Null Percentage: 0.00%
+- Column: product_category | Null Percentage: 10.00%
+- Column: discount | Null Percentage: 0.00%

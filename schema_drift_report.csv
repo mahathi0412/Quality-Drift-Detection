@@ -1,0 +1,5 @@
+Drift_Type,Column,Details
+New Column,discount,DoubleType()
+New Column,date,TimestampType()
+Missing Column,date,DateType()
+Type Mismatch,date,DateType() → TimestampType()
