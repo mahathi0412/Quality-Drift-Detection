@@ -4,14 +4,14 @@
 As I worked more with different datasets, I noticed something important — data evolves.  
 New fields appear, old ones disappear, types change, and the way values behave shifts over time.
 
-That's when I learned about **data drifting** — a concept that explains how these small changes, if left unnoticed, can quietly break data pipelines and business decisions.
+That's when I learned about **data drifting** - a concept that explains how these small changes, if left unnoticed, can quietly break data pipelines and business decisions.
 
 There are different types of drifts that can happen:
 - **Schema drift**: The structure of the data changes (new/missing columns, type mismatches).
 - **Value drift**: The pattern of data values changes (average revenue goes up, variability increases).
 - **Null drift**: Missing data starts to appear more often where it wasn't expected before.
 
-This project simulates and detects these kinds of drifts — helping ensure that data remains reliable, trustworthy, and usable for analysis.
+This project simulates and detects these kinds of drifts - helping ensure that data remains reliable, trustworthy, and usable for analysis.
 
 ## What I Built
 
@@ -22,8 +22,6 @@ I created a **simple but effective data drift detection system** that does the f
   - Shifts in important value distributions like revenue.
   - Unexpected increases in missing data.
 - Saves the findings into clean reports (both CSV and text formats) for easy review.
-
-The whole process feels like giving the data a "health check" — to make sure it's still in good shape over time!
 
 ## Tools and Technologies Used
 
